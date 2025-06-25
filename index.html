@@ -24,6 +24,60 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
       display: block;
       margin: 0 auto;
     }
+    hr {
+      border: 0;
+      height: 1px;
+      background-color: #ccc;
+      margin: 20px auto;
+    }   
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1, h2, h3 {
+      text-align: center;
+      color: #333;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      background: white;
+      margin: 20px auto;
+      max-width: 800px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    footer a {
+      color: #f4f4f4;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer a:hover {
+      color: #ffd700;
+    }
+
+    footer span {
+      color: #bbb;
+    }
   </style>
  </head>
  <body>
@@ -53,10 +107,19 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
             <p>This project features a birthday invitation page that I designed to celebrate a special occasion.
             The page includes festive graphics, RSVP options, and event details to make it easy for guests
             to join the celebration. The design is colorful and fun, reflecting the joyous nature of a birthday party.</p>
-            <a href="./public/birthday-invitation.html">
+            <a href="./public/birthday-invite.html">
                 <img src="./assets/images/birthday-invitation.png" alt="birthday invitation project" height="200">
             </a>
         </li>
     </ul>
  </body>
+ <hr/>
+ <footer>
+    <h4 style="text-align: center;">
+        <a href="./public/contact.html">Contact Me</a>
+        <span style="padding: 0 10px;">|</span>
+        <a href="./public/about.html">About Me</a>
+    </h4>
+    <p>If you have any questions or would like to get in touch, please feel free to reach out via email</p>
+ </footer>
  </html>
